@@ -1,0 +1,11 @@
+# the first time you start it any new fully kiosk app that has mqtt activated will show a device ID in the log
+
+
+fully_mqtt:
+  module: fully_mqtt
+  class: tablet_mqtt
+  devices:
+    # "xxxxxxxx-xxxxxxx": livingroom #(make sure its a name without spaces or charachters that HA doesnt accept in entity names)
+    
+
+    

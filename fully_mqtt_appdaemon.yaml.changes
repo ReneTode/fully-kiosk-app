@@ -1,0 +1,14 @@
+appdaemon:
+  plugins:
+    FULLY:
+      type: mqtt
+      verbose: False
+      client_host: ip address
+      client_port: xxx
+      client_user: (optional)
+      client_password: (optional)
+      client_id: AD_fully
+      namespace: fully
+      event_name: fully
+      client_topics:
+        - fully/#
